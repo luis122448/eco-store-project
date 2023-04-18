@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../assets/font/IBM_Plex_Sans/IBMPlexSans-Medium.ttf");
+}
+body {
+  margin: 0 auto;
+  max-width: 960px;
+  background-color: rgb(255, 239, 231);
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.nav {
+  width: auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #7C6A0A;
+  padding: 15px;
+}
+.nav p {
+  font-size: 1.5em;
+  padding-left: 30px;
+}
+.nav .icons {
+  display: flex;
+  gap: 15px;
+}
+.nav .icons button {
+  background: none;
+  border-style: none;
+}
+
+article {
+  width: auto;
+  color: #7C6A0A;
+  padding-left: 45px;
+  padding-right: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+article .info-article {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 50px;
+}
+article .info-article h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 3em;
+}
+article .info-article p {
+  font-size: 1.5em;
+}
+article .info-article button {
+  width: 15vw;
+  padding: 20px;
+  background-color: #FA9500;
+  border-style: none;
+  border-radius: 35px;
+  color: white;
+  font-size: 1em;
+}
+article .info-article button:hover {
+  transform: scale(1.1);
+}
+article .img-article img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.product-section {
+  height: auto;
+  padding: 20px 45px 20px 45px;
+}
+.product-section h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+}
+
+.healthcare h2, .furniture h2 {
+  font-weight: 300px;
+  padding-bottom: 40px;
+}
+.healthcare .card-section, .furniture .card-section {
+  width: 100%;
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr 1fr;
+  column-gap: 125px;
+  row-gap: 75px;
+}
+.healthcare .product-cart, .furniture .product-cart {
+  height: auto;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.healthcare .product-cart svg, .furniture .product-cart svg {
+  align-self: flex-end;
+  width: 28px;
+  height: 28px;
+  padding-bottom: 10px;
+}
+.healthcare .product-cart img, .furniture .product-cart img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px;
+}
+.healthcare .product-cart p, .furniture .product-cart p {
+  margin: 0;
+}
+
+.furniture .product-cart {
+  background-color: #BABD8D;
+  color: white;
+}
+
+.about-us {
+  padding: 0 45px 0 45px;
+}
+.about-us h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+}
+.about-us .mision-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-us .mision-section .earth, .about-us .mision-section .innovation {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.about-us .mision-section .earth p, .about-us .mision-section .innovation p {
+  text-align: center;
+  margin: auto 0;
+}
+.about-us .mision-section .earth img, .about-us .mision-section .innovation img {
+  object-fit: contain;
+}
+.gallery {
+  max-width: 960px;
+  padding: 0 45px 0 45px;
+}
+.gallery h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+}
+.gallery .gallery-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+.gallery .gallery-images img {
+  max-width: 30%;
+  width: 28vw;
+  height: 250px;
+  object-fit: cover;
+  object-position: 5px 35%;
+  border-radius: 16px;
+}
+.gallery .gallery-images img:hover {
+  transform: scale(1.1);
+}
+
+.location {
+  max-width: 960px;
+  padding: 0 45px 0 45px;
+}
+.location h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+}
+.location h3, .location p {
+  color: #7C6A0A;
+}
+.location img {
+  max-width: 100%;
+}
+
+.footer {
+  padding: 25px 45px 0 45px;
+  background-color: #FA9500;
+  max-width: 960px;
+  height: auto;
+  color: white;
+}
+.footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */
